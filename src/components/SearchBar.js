@@ -22,6 +22,7 @@ class SearchBar extends Component {
                 type="text" 
                 value={this.state.term} 
                 onChange={this.onInputChange}
+                placeholder="Type something"
             />
           </div>
         </form>
